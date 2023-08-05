@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Work+Sans:wght@100&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+    .site__nexus{
+        @apply  m-0 p-3 bg-richblack-900
+    }
+    .site-header{
+        @apply   shadow-rose-900 shadow-lg relative w-auto m-0 mx-auto flex justify-between p-6 font-worksans bg-richblack-800 text-white
+    }
+
+    .gradient__text{
+        @apply bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 bg-clip-text text-transparent  
+    }
+
+    .site-logo{
+        @apply flex flex-1 md:flex-none items-center
+    }
+
+    .navigation-menu{
+        @apply hidden md:flex
+    }
+    .navigation-menu ul{
+        @apply flex items-center gap-3 font-bold relative
+    }
+
+    .navigation-menu ul li{
+       @apply  hover:text-rose-400 transition-all duration-300 select-none cursor-pointer
+    }
+
+
+    .account{
+        @apply flex gap-4 items-center
+    }
+
+    #login-btn{
+        @apply text-white font-bold text-sm bg-rose-600 border-rose-600 border-[1px] py-2 px-3  hover:scale-110 transition-all duration-300
+    }
+
+    #signup-btn{
+        @apply text-black bg-white font-bold text-sm border-rose-800 border-[1px] py-2 px-3  hover:scale-110 transition-all duration-300
+    }
+
+    .nexus__hero-section{
+        @apply  text-white  flex flex-col lg:flex-row justify-between items-center  mx-auto font-mullish gap-8  w-11/12  
+    }
+
+    .nexus__hero-content{
+        @apply flex justify-center lg:justify-start lg:items-start items-center  flex-col gap-4 p-2 mt-10
+    }
+
+    .nexus__hero-content h1{
+        @apply font-semibold text-2xl uppercase tracking-widest 
+    }
+    
+
+    .nexus__hero-content p{
+        @apply text-xl tracking-wide max-w-lg;
+        line-height: 32px;
+    }
+
+    .nexus__hero-content .btn{
+       @apply bg-rose-900 p-3 w-64 hover:scale-110 transition-all duration-700
+    }
+
+    .nexus__hero-section .image{
+        @apply mx-3 my-7 shadow-[10px_-5px_50px_-5px] shadow-richblue-400
+    }
+
+    .site__nexus .movies{
+        @apply text-white p-2 font-mullish tracking-wide m-2
+    }
+    .site__nexus .movies h1{
+        @apply text-white uppercase text-2xl 
+    }
+
+    .movies__grid{
+        @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 gap-2 text-center justify-center items-center
+    }
+
+    .movies__grid .grid__item{
+        @apply flex items-center  justify-center flex-col
+    }
+
+    .movies__grid img{
+        @apply hover:scale-110 transition-all duration-500 p-10;
+        height: 500px;
+        width: 420px;
+    }
+
+    .site__nexus .shows{
+        @apply text-white p-2 font-mullish tracking-wide m-2
+    }
+    .site__nexus .shows h1{
+        @apply text-white uppercase text-2xl 
+    }
+
+     .shows__grid{
+        @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 gap-2
+    }
+
+    .pricing{
+        @apply text-white font-mullish flex  gap-8 text-2xl flex-col
+    }
+
+    .pricing h1{
+        @apply flex justify-center items-center ;
+        font-size: 48px;
+    }
+
+    .pricing__grid{
+        @apply grid grid-cols-3 text-white  gap-8 justify-start items-start text-base py-24 px-4  sm:px-6 lg:px-8
+    }
+
+    .pricing__plan{
+        @apply border border-pink-800 shadow-lg  p-8 bg-white text-black rounded-2xl relative h-full
+    }
+
+    .newsletter{
+        @apply flex justify-center items-center flex-col font-mullish text-white gap-4 p-10
+    }
+    .newsletter h1{
+        @apply font-bold text-2xl 
+    }
+
+    
+    .newsletter__input input{
+        @apply p-3 text-xl capitalize font-mullish border-none bg-slate-600 focus:outline-none
+    }
+
+    .newsletter__input .btn{
+        @apply p-3 text-xl capitalize font-mullish border-none bg-red-800 -m-1 active:scale-95 transition-all duration-300 
+    }
+
+
+
+    footer{
+        @apply flex justify-center items-center bg-richblack-900 text-white border-t-[0.2px] p-10
+    }
+    
+
+    
+      
+
+    
+  }

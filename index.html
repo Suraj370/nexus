@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   
+     <header class="site-header">
+        <div class = site-logo>
+          <img src="./assets/logo.png" width="75" height="100" alt="logo">
+     
+        </div>
+        <nav class="navigation-menu">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="#">Shows & Movies</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="account">
+         <a href="/signin" id = "login-btn">Sign in</a>
+         <a href="/signup" id = "signup-btn">Sign Up</a>
+        </div>
+     
+     </header>
+     <!-- Hero Section -->
+    <div class="site__nexus">
+     <section class="nexus__hero-section ">
+      <!-- left part -->
+      <div class="nexus__hero-content">
+        <h1 class="gradient__text">Ready to Watch TV Shows, Movies and Much More</h1>
+        <p>Watch your favourite stars Anytime. Anywhere</p>
+        <button class="btn">
+          <a href="/signin">
+            Get Started
+          </a>
+        </button>
+      </div>
+      
+      <!-- right part -->
+      <div class="image">
+        <img src="/assets/hero-image.png" alt="blue-bettle" height="100" width="400">
+      </div>
+     </section>
+
+     <section class="movies">
+      <h1>Movies</h1>
+      <div class="movies__grid">
+        <div class="grid__item">
+          <img src="/assets/doctor_strange_multiverse_of_madness.png"  alt="">
+          <p>Doctor Strange Multiverse Of Madness</p>
+        </div>
+        <div class="grid__item">
+          <img src="/assets/wakanda_forever.png" alt="">
+          <p>Black Panther Wakanda Forever</p>
+        </div>
+        <div class="grid__item">
+          <img src="/assets/quantamania.png"  alt="">
+          <p>Ant Man And Wasp: Quantumania</p>
+        </div>
+     
+      </div>
+     </section>
+
+     <section class="shows">
+      <h1>Shows</h1>
+      <div class="shows__grid">
+        <p>Coming Soon...</p>
+      
+      </div>
+     </section>
+
+     <!-- Picing plans -->
+     <section class="pricing">
+      <h1> Pricing</h1>
+      <div class="pricing__grid">
+        <div class="pricing__plan">
+          <h3 class="text-lg font-semibold leading-5">Free Plan</h3>
+
+          <div class="mt-4 rounded-lg bg-slate-50 p-6 -mx-6">
+            <p class="text-sm font-semibold text-slate-500 flex items-center">
+              <span>USD</span>
+              <span class="text-4xl text-slate-900 ml-3 ">$24</span>
+              <span class="ml-1.5 ">/month</span>
+            </p>
+          </div>
+
+          <!-- Features -->
+          <ul class=" mt-6 space-y-4 flex gap-2 flex-col">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            <li class="flex gap-1">
+              <svg class="h-5 w-5 flex-none text-indigo-600 " viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                </svg>
+              <p class="ml-3">1 stream</p></li>
+            <li class="flex gap-1">
+              <svg class="h-5 w-5 flex-none text-indigo-600 " viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                </svg>
+              <p class="ml-3">SD quality</p></li>
+            <li class="flex gap-1">
+              <svg class="h-5 w-5 flex-none text-indigo-600 " viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                </svg>
+              <p class="ml-3">No offline viewing</p>
+            </li>
+            
+          </ul>
+
+         
+          
+        </div>
+        <div class="pricing__plan">
+          <h3 class="text-lg font-semibold leading-5">Super Plan</h3>
+          <p class="absolute -top-2 -translate-y-1/2 text-white px-3 py-0.5 text-sm font-semibold bg-rose-950 tracking-wide rounded-full shadow-md ">Most Popular</p>
+          <div class="mt-4 rounded-lg bg-slate-50 p-6 -mx-6">
+            <p class="text-sm font-semibold text-slate-500 flex items-center">
+              <span>USD</span>
+              <span class="text-4xl text-slate-900 ml-3 ">$44</span>
+              <span class="ml-1.5 ">/month</span>
+            </p>
+          </div>
+          <!-- Features -->
+          <ul class=" mt-6 space-y-4 flex gap-2 flex-col">
+            
+            <li class="flex gap-1">
+              <svg class="h-5 w-5 flex-none text-indigo-600 " viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+              </svg>
+                <p class="ml-3">2 streams</p>
+            </li>
+            <li class="flex gap-1">
+              <svg class="h-5 w-5 flex-none text-indigo-600 " viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+              </svg>
+              <p class="ml-3">HD quality</p></li>
+            <li class="flex gap-1">
+              <svg class="h-5 w-5 flex-none text-indigo-600 " viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+              </svg>
+              <p class="ml-3">1080p streaming</p></li>
+            
+          </ul>
+        </div>
+        <div class="pricing__plan">
+          <h3 class="text-lg font-semibold leading-5">Premium Plan</h3>
+          <div class="mt-4 rounded-lg bg-slate-50 p-6 -mx-6">
+            <p class="text-sm font-semibold text-slate-500 flex items-center">
+              <span>USD</span>
+              <span class="text-4xl text-slate-900 ml-3 ">$62</span>
+              <span class="ml-1.5 ">/month</span>
+            </p>
+          </div>
+          <!-- Features -->
+          <ul class=" mt-6 space-y-4 flex gap-4 flex-col">
+            <li class="flex gap-1">
+              <svg class="h-5 w-5 flex-none text-indigo-600 " viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+              </svg>
+              <p class="ml-1.5">4 streams</p>
+            </li>
+            <li class="flex gap-1">
+              <svg class="h-5 w-5 flex-none text-indigo-600 " viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+              </svg>
+              <p class="ml-1.5">4K quality</p>
+            </li>
+            <li class="flex gap-1">
+              <svg class="h-5 w-5 flex-none text-indigo-600 " viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+              </svg>
+              <p class="ml-1.5">HDR streaming</p>
+            </li>
+             <li class="flex gap-1">
+              <svg class="h-5 w-5 flex-none text-indigo-600 " viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+              </svg>
+              <p class="ml-1.5">Downloads for offline viewing</p>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+     </section>
+
+     <section class="newsletter">
+      <h1>NEWSLETTER</h1>
+      <p> Subscribe To Newsletter to get latest updates</p>
+      <div class="newsletter__input">
+        <input type="email" placeholder="Your email">
+        <button class = "btn" type="button">Subscribe</button>
+      </div>
+     </section>
+
+     
+   </div>
+
+   <footer>
+    <h1>© 2023 Your Company, Inc. All rights reserved.</h1>
+   </footer>
+
+
+
+
+    
+</body>
+</html>
